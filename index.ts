@@ -4,14 +4,10 @@
 
 import inquirer from "inquirer"
 
-//1) computer will generate a random number "Done line number 14"
-
-//2) user input for guessing number "Done line number 16.23,"
-
-//3) compare user input with computer generated number and show result "done line number 25.29 "
-
 
 const randomnumber = Math.floor(Math.random() * 6 +1);
+
+console.log("Welcome to number Guessing Game");
 
 const answers = await inquirer.prompt([
     {
